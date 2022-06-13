@@ -46,6 +46,11 @@ Structure:
 BASE64URL(JWS Header) + '.' + BASE64URL(JWS Payload) + '.' + BASE64URL(JWS Signature)
 ```
 
+Execute:
+```bash
+  ruby jwt_generator.rb
+```
+
 Example:
 
 ```ruby
